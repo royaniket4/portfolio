@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aniket Dulal Roy - CEH v13 & VAPT Engineer at Writer Information, Mumbai. SAST, DAST, OWASP Top 10, Burp Suite, SonarQube, MobSF. Also a vibe-coding AI Engineer building full-stack apps with Claude Code, GitHub Copilot, OpenAI, Ollama. Open to VAPT, Full-Stack, and AI Engineering roles.">
+  <meta name="keywords" content="cybersecurity, ethical hacking, CEH, CEH v13, VAPT, SAST, DAST, penetration testing, vulnerability assessment, OWASP Top 10, Burp Suite, SonarQube, MobSF, Nmap, Kali Linux, Python, full-stack developer, fullstack, react, ai engineer, vibe coding, claude code, github copilot, openai, openrouter, ollama, kiro, antigravity, prompt engineering, portfolio, aniket roy, aniket dulal roy">
+  <meta name="author" content="Aniket Dulal Roy">
+  <meta property="og:title" content="Aniket Dulal Roy | VAPT Engineer · Full-Stack & AI Developer">
+  <meta property="og:description" content="CEH v13 | VAPT Engineer | SAST/DAST | OWASP Top 10 | Full-Stack Dev | AI Engineer (Claude Code · Copilot · OpenAI · Ollama)">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aniket Dulal Roy | VAPT Engineer · Full-Stack & AI Developer">
+  <meta name="twitter:description" content="CEH v13 | VAPT Engineer | SAST/DAST | OWASP Top 10 | Full-Stack Dev | AI Engineer (Claude Code · Copilot · OpenAI · Ollama)">
+  <meta name="twitter:image" content="og-image.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aniket Dulal Roy",
+    "jobTitle": "VAPT Engineer",
+    "description": "Certified Ethical Hacker (CEH v13) and VAPT Engineer specializing in SAST, DAST, web/mobile security, and OWASP Top 10. Also builds full-stack applications as an AI-native vibe coder with Claude Code, GitHub Copilot, OpenAI, OpenRouter, and Ollama. Open to VAPT, Full-Stack, and AI Engineering roles.",
+    "worksFor": { "@type": "Organization", "name": "Writer Information", "address": { "@type": "PostalAddress", "addressLocality": "Mumbai", "addressCountry": "IN" } },
+    "email": "mailto:aniketroy9662@gmail.com",
+    "url": "https://github.com/royaniket4",
+    "sameAs": [
+      "https://github.com/royaniket4",
+      "https://www.linkedin.com/in/aniket-roy18/"
+    ],
+    "knowsAbout": ["VAPT", "Penetration Testing", "SAST", "DAST", "OWASP Top 10", "Burp Suite", "SonarQube", "MobSF", "Nmap", "Kali Linux", "Python", "Cloud Security", "Full-Stack Development", "React", "JavaScript", "AI Engineering", "Claude Code", "GitHub Copilot", "OpenAI", "OpenRouter", "Ollama", "Prompt Engineering"],
+    "hasCredential": [
+      { "@type": "EducationalOccupationalCredential", "name": "Certified Ethical Hacker v13", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "EC-Council" } },
+      { "@type": "EducationalOccupationalCredential", "name": "Introduction to Cyber Security", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "CISCO" } },
+      { "@type": "EducationalOccupationalCredential", "name": "Microsoft Sentinel Capabilities", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "Microsoft" } }
+    ]
+  }
+  </script>
+  <meta name="theme-color" content="#0a0e17">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Aniket Dulal Roy | Cybersecurity Professional</title>
+</head>
+<body>
+
+  <canvas id="matrixCanvas"></canvas>
+
+  <div id="scrollBar"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">&lt;Aniket <span class="accent">/</span>&gt;</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+
+        <a href="#certs" class="nav-link">Certs</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-scanlines"></div>
+    <div class="hero-orb"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">&gt; Hello, I'm</p>
+      <h1 class="hero-name"><span class="gradient">Aniket Dulal Roy</span></h1>
+      <div class="hero-title-line">
+        <span class="hero-prompt">&gt;</span>
+        <span class="hero-title" id="typer"></span>
+        <span class="hero-cursor">_</span>
+      </div>
+      <p class="hero-desc">VAPT Engineer &amp; CEH v13 certified — SAST, DAST, web &amp; mobile app security, OWASP Top 10 with Burp Suite, SonarQube, MobSF, Nmap, Kali Linux. Currently at Writer Information, Mumbai. Vibe-coding AI engineer (Claude Code, GitHub Copilot, OpenAI, Ollama) open to Full-Stack &amp; AI Engineering roles.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary">Explore Work</a>
+        <a href="Aniket_Roy_Resume.pdf" class="btn outline" download id="resumeBtn">Download Resume</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">Internships</span></div>
+        <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Certifications</span></div>
+        <div class="stat"><span class="stat-num" data-target="4">0</span><span class="stat-label">Projects</span></div>
+        <div class="stat"><span class="stat-num" data-target="2">0</span><span class="stat-label">Hackathons</span></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">// about</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-frame">
+            <div class="about-avatar">
+              <img src="passport.jpeg" alt="Aniket Dulal Roy" class="about-img" loading="lazy">
+            </div>
+            <div class="about-border"></div>
+          </div>
+          <div class="about-badge">
+            <span class="badge-dot"></span>
+            <span>Open to Work</span>
+          </div>
+
+        </div>
+        <div class="about-text reveal-right">
+          <p><strong>VAPT Engineer</strong> and <strong>CEH v13</strong> certified, currently performing security assessments at <strong>Writer Information</strong>, Mumbai, India, with prior internships at <strong>Low Latency Technologies</strong>, <strong>Cyber Secured India</strong>, and <strong>Deloitte</strong>.</p>
+          <p>Hands-on with <strong>SAST, DAST, and OWASP Top 10</strong> assessments across web and mobile applications using <strong>Burp Suite, SonarQube, SonarScanner, MobSF, Nmap, and Kali Linux</strong>. Build security tooling and full-stack apps in <strong>Python, C/C++, JavaScript, and React</strong>.</p>
+          <p>Vibe-coding <strong>AI Engineer</strong> — hands-on with <strong>Claude Code, GitHub Copilot, OpenAI, OpenRouter, Ollama, Kiro, and Antigravity</strong> for rapid AI-assisted development. Open to full-time <strong>VAPT, Full-Stack, or AI Engineering</strong> roles.</p>
+          <div class="about-info">
+            <div class="info-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Nagpur, India</div>
+            <div class="info-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> aniketroy9662@gmail.com</div>
+            <div class="info-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> (+91) 7709291037</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="education reveal" style="max-width:1200px;margin:0 auto;padding:0 24px">
+    <div class="section-head" style="margin-bottom:2rem">
+      <span class="section-tag">// education</span>
+      <h2 class="section-title">Academic Background</h2>
+    </div>
+    <div class="edu-list">
+      <div class="edu-card reveal"><div class="edu-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div><div><h3>B.Tech CSE – CyberSecurity</h3><p>GH Raisoni College of Engineering & Management, Nagpur</p><span class="edu-meta">2022 – 2026 | CGPA: 7.16</span></div></div>
+      <div class="edu-card reveal"><div class="edu-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div><div><h3>12th Higher Secondary (HSC)</h3><p>Dr. Babasaheb Ambedkar College, Nagpur</p><span class="edu-meta">2020 – 2022 | 76.17%</span></div></div>
+      <div class="edu-card reveal"><div class="edu-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div><div><h3>10th Secondary (SSC)</h3><p>Saraswati Vidyalaya, Nagpur</p><span class="edu-meta">2019 – 2020 | 87.20%</span></div></div>
+    </div>
+  </div>
+
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">// skills</span>
+        <h2 class="section-title">Tech Arsenal</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-cat reveal"><h3>VAPT & Security Testing</h3><div class="skill-pills"><span class="pill">SAST</span><span class="pill">DAST</span><span class="pill">Web Application Security</span><span class="pill">Mobile Application Security</span><span class="pill">OWASP Top 10</span><span class="pill">Vulnerability Assessment</span><span class="pill">Penetration Testing</span><span class="pill">Remediation Reporting</span></div></div>
+        <div class="skill-cat reveal"><h3>Security Tools</h3><div class="skill-pills"><span class="pill">Burp Suite</span><span class="pill">Nmap</span><span class="pill">Wireshark</span><span class="pill">Kali Linux</span><span class="pill">SonarQube</span><span class="pill">SonarScanner</span><span class="pill">MobSF</span><span class="pill">Microsoft Sentinel</span><span class="pill">Microsoft Defender</span><span class="pill">Hydra</span><span class="pill">SentinelOne</span></div></div>
+        <div class="skill-cat reveal"><h3>Programming & Development</h3><div class="skill-pills"><span class="pill">Python</span><span class="pill">C</span><span class="pill">C++</span><span class="pill">Java</span><span class="pill">HTML/CSS</span><span class="pill">JavaScript</span><span class="pill">React</span><span class="pill">MySQL</span><span class="pill">GitHub</span><span class="pill">VS Code</span></div></div>
+        <div class="skill-cat reveal"><h3>AI Engineering · Vibe Coding</h3><div class="skill-pills"><span class="pill">Claude Code</span><span class="pill">GitHub Copilot</span><span class="pill">OpenAI</span><span class="pill">OpenRouter</span><span class="pill">Ollama</span><span class="pill">Kiro</span><span class="pill">Antigravity</span><span class="pill">Opencode</span><span class="pill">Prompt Engineering</span></div></div>
+        <div class="skill-cat reveal"><h3>Cloud & Platforms</h3><div class="skill-pills"><span class="pill">AWS</span><span class="pill">Linux</span><span class="pill">Windows</span><span class="pill">VMware</span><span class="pill">IAM</span><span class="pill">RBAC</span><span class="pill">Least Privilege</span><span class="pill">Service Account Governance</span></div></div>
+      </div>
+      <div class="proficiency reveal">
+        <h3 class="prof-title">Proficiency</h3>
+        <div class="prof-list">
+          <div class="prof-item"><div class="prof-head"><span>Burp Suite / Web Pentesting / SAST / DAST</span><span class="prof-pct">92%</span></div><div class="prof-bar"><div class="prof-fill" data-w="92"></div></div></div>
+          <div class="prof-item"><div class="prof-head"><span>Kali Linux / Nmap / Wireshark / OWASP</span><span class="prof-pct">88%</span></div><div class="prof-bar"><div class="prof-fill" data-w="88"></div></div></div>
+          <div class="prof-item"><div class="prof-head"><span>Python / Security Automation / Tooling</span><span class="prof-pct">85%</span></div><div class="prof-bar"><div class="prof-fill" data-w="85"></div></div></div>
+          <div class="prof-item"><div class="prof-head"><span>AWS Cloud Security / IAM / RBAC / Least Privilege</span><span class="prof-pct">82%</span></div><div class="prof-bar"><div class="prof-fill" data-w="82"></div></div></div>
+          <div class="prof-item"><div class="prof-head"><span>SonarQube / SonarScanner / MobSF / Sentinel</span><span class="prof-pct">80%</span></div><div class="prof-bar"><div class="prof-fill" data-w="80"></div></div></div>
+          <div class="prof-item"><div class="prof-head"><span>C / C++ / Java / React / JavaScript</span><span class="prof-pct">78%</span></div><div class="prof-bar"><div class="prof-fill" data-w="78"></div></div></div>
+          <div class="prof-item"><div class="prof-head"><span>Digital Forensics / Incident Response</span><span class="prof-pct">75%</span></div><div class="prof-bar"><div class="prof-fill" data-w="75"></div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">// experience</span>
+        <h2 class="section-title">Where I've Worked</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-line"></div>
+        <div class="tl-block reveal-left">
+          <div class="tl-dot current"></div>
+          <div class="tl-card current-card" style="--hue:140">
+            <div class="tl-head"><div><h3>VAPT Engineer</h3><p class="tl-company">Writer Information, Mumbai, India</p></div><span class="tl-date">Aug 2026 – Present</span></div>
+            <ul class="tl-details">
+              <li>Performing vulnerability assessment and penetration testing (VAPT) for production banking applications.</li>
+              <li>Conducting SAST/DAST scans and manual OWASP Top 10 testing on web and mobile applications.</li>
+              <li>Documenting vulnerabilities with severity ratings and remediation guidance for development teams.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-block reveal-left">
+          <div class="tl-dot"></div>
+          <div class="tl-card" style="--hue:160">
+            <div class="tl-head"><div><h3>Cybersecurity Trainee Intern</h3><p class="tl-company">Low Latency Technologies</p></div><span class="tl-date">Dec 2025 – May 2026</span></div>
+            <ul class="tl-details">
+              <li>Secured cloud infrastructure, AI agent pipelines, and LLM deployments across multi-cloud environments (AWS, Azure, GCP).</li>
+              <li>Enforced IAM policies, least-privilege access controls, RBAC, and service account governance.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-block reveal-right">
+          <div class="tl-dot"></div>
+          <div class="tl-card" style="--hue:190">
+            <div class="tl-head"><div><h3>Cybersecurity & Digital Forensic Intern</h3><p class="tl-company">Cyber Secured India (CSI)</p></div><span class="tl-date">Apr 2025 – Jun 2025</span></div>
+            <ul class="tl-details">
+              <li>Conducted digital forensics investigations using Burp Suite and PortSwigger, exploiting OWASP Top 10 vulnerabilities.</li>
+              <li>Performed SAST/DAST vulnerability assessments for web, Android, and iOS applications using SonarQube, SonarScanner, Burp Suite, and MobSF.</li>
+              <li>Validated and documented vulnerabilities with severity assessment and remediation reports.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-block reveal-left">
+          <div class="tl-dot"></div>
+          <div class="tl-card" style="--hue:220">
+            <div class="tl-head"><div><h3>Cybersecurity Intern</h3><p class="tl-company">Deloitte</p></div><span class="tl-date">Jun 2025</span></div>
+            <ul class="tl-details">
+              <li>Gained exposure to real-world threat modeling, SOC workflows, and enterprise incident response processes.</li>
+              <li>Worked with Microsoft Sentinel and Microsoft Defender for threat detection and response.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">// projects</span>
+        <h2 class="section-title">Featured Work</h2>
+      </div>
+      <div class="filter-tabs" id="filterTabs">
+        <button class="ftab active" data-filter="all">All</button>
+        <button class="ftab" data-filter="ai-security">AI Security</button>
+        <button class="ftab" data-filter="vapt">VAPT</button>
+        <button class="ftab" data-filter="cloud">Cloud</button>
+        <button class="ftab" data-filter="web">Web</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card reveal" style="--hue:160" data-repo="https://github.com/royaniket4/trinetra" data-cat="ai-security">
+          <div class="project-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+          <h3>Trinetra</h3>
+          <p>AI-powered SIEM + SOC + XDR + SOAR Lite cybersecurity platform for unified threat detection and response. Integrates log aggregation, behavioral analytics, automated incident response, and threat intelligence.</p>
+          <div class="project-tags"><span class="ptag">AI</span><span class="ptag">SIEM</span><span class="ptag">XDR</span><span class="ptag">SOAR</span><span class="ptag">Python</span></div>
+        </div>
+        <div class="project-card reveal" style="--hue:190" data-repo="https://github.com/royaniket4/PyPentest-Web-Vulnerability-Scanner" data-cat="vapt">
+          <div class="project-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+          <h3>PyPentest</h3>
+          <p>Web Vulnerability Scanner built in Python to automate security testing, scanning, and vulnerability detection. Performs SAST/DAST assessments aligned with OWASP Top 10 methodologies.</p>
+          <div class="project-tags"><span class="ptag">Python</span><span class="ptag">Security</span><span class="ptag">Scanner</span><span class="ptag">OWASP</span><span class="ptag">VAPT</span></div>
+        </div>
+        <div class="project-card reveal" style="--hue:220" data-repo="https://github.com/royaniket4/shadow-access-detector" data-cat="cloud">
+          <div class="project-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+          <h3>Shadow Access Detector</h3>
+          <p>AWS EC2 security tool that detects shadow access patterns and enforces least-privilege access controls. Identifies over-privileged IAM roles, unused permissions, and policy drift.</p>
+          <div class="project-tags"><span class="ptag">AWS</span><span class="ptag">EC2</span><span class="ptag">IAM</span><span class="ptag">Least Privilege</span><span class="ptag">Python</span></div>
+        </div>
+        <div class="project-card reveal" style="--hue:250" data-repo="https://github.com/royaniket4/Universal-Blockchain-CMS-Plugin-" data-cat="web">
+          <div class="project-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div>
+          <h3>Universal Blockchain CMS Plugin</h3>
+          <p>Blockchain-based CMS plugin ensuring tamper-proof content integrity and decentralized storage. Implements cryptographic verification for content authenticity.</p>
+          <div class="project-tags"><span class="ptag">Blockchain</span><span class="ptag">CMS</span><span class="ptag">Web3</span><span class="ptag">Security</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="certs section" id="certs">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">// certifications</span>
+        <h2 class="section-title">Credentials & Recognition</h2>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card reveal" data-cert="ceh.jpg"><div class="cert-icon">CEH</div><div><h3>Certified Ethical Hacker v13</h3><p class="cert-issuer">EC-Council</p></div></div>
+        <div class="cert-card reveal" data-cert="cis.jpg"><div class="cert-icon">CIS</div><div><h3>Introduction to Cyber Security</h3><p class="cert-issuer">CISCO</p></div></div>
+        <div class="cert-card reveal" data-cert="dw.jpg"><div class="cert-icon">DW</div><div><h3>Introduction to Dark Web</h3><p class="cert-issuer">EC-Council</p></div></div>
+        <div class="cert-card reveal" data-cert="eh.jpg"><div class="cert-icon">EH</div><div><h3>Ethical Hacking</h3><p class="cert-issuer">Nikist Media</p></div></div>
+        <div class="cert-card reveal" data-cert="ms.jpg"><div class="cert-icon">MS</div><div><h3>Microsoft Sentinel Capabilities</h3><p class="cert-issuer">Microsoft</p></div></div>
+      </div>
+
+      <div class="cert-modal" id="certModal" role="dialog" aria-modal="true" aria-label="Certificate view">
+        <div class="cert-modal-overlay"></div>
+        <div class="cert-modal-content">
+          <button class="cert-modal-close" aria-label="Close certificate">&times;</button>
+          <img id="certModalImg" src="" alt="Certificate" loading="lazy">
+        </div>
+      </div>
+
+      <div class="achievements reveal" style="margin-top:4rem">
+        <div class="section-head" style="margin-bottom:2rem">
+          <span class="section-tag">// achievements</span>
+          <h2 class="section-title">Milestones</h2>
+        </div>
+        <div class="achieve-grid">
+          <div class="achieve-card reveal"><div class="achieve-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div><h3>Smart India Hackathon (SIH)</h3><p>Participated in India's largest hackathon — solving real-world cybersecurity challenges</p></div>
+          <div class="achieve-card reveal"><div class="achieve-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div><h3>DEFCON Delhi (DC9111)</h3><p>Attended workshops on hardware hacking, cybersecurity awareness, and physical security</p></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">// contact</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <p>Have a project, security challenge, or just want to connect? Let's talk.</p>
+          <div class="contact-cards">
+            <a href="mailto:aniketroy9662@gmail.com" class="contact-card">
+              <div class="contact-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+              <div class="contact-card-body">
+                <span class="contact-card-label">Email</span>
+                <span class="contact-card-value">aniketroy9662@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+917709291037" class="contact-card">
+              <div class="contact-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+              <div class="contact-card-body">
+                <span class="contact-card-label">Phone</span>
+                <span class="contact-card-value">(+91) 7709291037</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/aniket-roy18/" target="_blank" class="contact-card">
+              <div class="contact-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></div>
+              <div class="contact-card-body">
+                <span class="contact-card-label">LinkedIn</span>
+                <span class="contact-card-value">@aniket-roy18</span>
+              </div>
+            </a>
+            <a href="https://github.com/royaniket4" target="_blank" class="contact-card">
+              <div class="contact-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg></div>
+              <div class="contact-card-body">
+                <span class="contact-card-label">GitHub</span>
+                <span class="contact-card-value">@royaniket4</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">&lt;Aniket <span class="accent">/</span>&gt;</a>
+          <p>Securing digital frontiers — one vulnerability at a time.</p>
+        </div>
+        <div class="footer-nav"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/aniket-roy18/" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="https://github.com/royaniket4" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg></a>
+          <a href="mailto:aniketroy9662@gmail.com" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aniket Dulal Roy. Built with <span class="heart">&hearts;</span> for cybersecurity.</p>
+        <p class="footer-mono">$ echo "Stay secure, stay curious."</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg></button>
+
+  <!-- Easter Egg -->
+  <div class="egg-overlay" id="eggOverlay">
+    <div class="egg-bg"></div>
+    <div class="egg-content">
+      <div class="egg-terminal" id="eggTerminal">
+        <p class="egg-line" data-delay="300"><span class="egg-prompt">&gt;</span> Initializing unauthorized access sequence...</p>
+        <p class="egg-line" data-delay="1200"><span class="egg-prompt">&gt;</span> Bypassing security protocols...</p>
+        <p class="egg-line" data-delay="2200"><span class="egg-prompt">&gt;</span> Decrypting payload...</p>
+        <p class="egg-line" data-delay="3200"><span class="egg-prompt">&gt;</span> <span class="egg-blink">_</span></p>
+      </div>
+      <div class="egg-reveal" id="eggReveal">
+        <div class="egg-badge">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#00ff41" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <h2 class="egg-title">ACCESS GRANTED</h2>
+        <p class="egg-subtitle">// system: aniket-dulal-roy_v1.0</p>
+        <div class="egg-stats">
+          <div class="egg-stat"><span class="egg-stat-val">CEH v13</span><span class="egg-stat-lbl">Certification</span></div>
+          <div class="egg-stat"><span class="egg-stat-val">3</span><span class="egg-stat-lbl">Internships</span></div>
+          <div class="egg-stat"><span class="egg-stat-val">5</span><span class="egg-stat-lbl">Certs</span></div>
+          <div class="egg-stat"><span class="egg-stat-val">∞</span><span class="egg-stat-lbl">Curiosity</span></div>
+        </div>
+        <p class="egg-secret">"You found the easter egg. Hire this one."</p>
+        <button class="egg-close" id="eggClose">[ close_connection ]</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-side" id="navSide">
+    <a href="#hero" class="side-dot active" data-sec="hero"></a>
+    <a href="#about" class="side-dot" data-sec="about"></a>
+    <a href="#skills" class="side-dot" data-sec="skills"></a>
+    <a href="#experience" class="side-dot" data-sec="experience"></a>
+    <a href="#projects" class="side-dot" data-sec="projects"></a>
+
+    <a href="#contact" class="side-dot" data-sec="contact"></a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
